@@ -1,0 +1,66 @@
+.assessment-form-container {
+    position: relative;
+    top: 35%;
+    background-color: rgba(0,0,0, 0.4);
+    margin: 0px 100px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.assessment-form h3 {
+    margin: 0px 15px;
+    color: #fff;
+    text-align: center;
+    
+}
+
+div{
+    display: block;
+}
+
+.assessment-form input {
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+
+.assessment-form select{
+    border-radius: 15px;
+    margin: 10px 0px;
+}
+
+.assessment-form{
+    width: 100%;
+}
+
+.assessment-form .radio-inline {
+    padding-left: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+label{
+    max-width: 100%;
+}
+
+.radio-inline, .checkbox-inline {
+    position: relative;
+    display: inline-block;
+    /* padding-left: 20px; */
+    margin-bottom: 0;
+    /* font-weight: 400; */
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+button .btn-submit-assessment{
+    border-radius:20px;padding:7px 30px;background: #349896;border-color: #349896;
+    margin-left: 81px
+}
+
+input .form-regist{
+    padding-top: 7px;
+}
+
+.data-user{
+    margin-top: 50px;
+}

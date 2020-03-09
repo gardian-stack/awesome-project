@@ -1,0 +1,69 @@
+/* .banner-homepage{
+    background-image:url("/banner-homepage-new.jpg");
+}
+
+.banner{
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+.banner {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.banner-homepage {
+    background-image: url("/learn-3258951_960_720.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+.banner-headline-wrapper {
+    background-color: rgb(0,0,0, 0.2);
+    padding: 40px 0px;
+}
+
+.banner-headline {
+    position: relative;
+    color: #FFF;
+    top: 15%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.banner-homepage h1 {
+    font-size: 30px;
+}
+
+.banner-homepage h1 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.banner-homepage h2 {
+    font-size: 18px;
+}
+
+h1 h2{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.blog-cont{
+    padding-top: 70px;
+}
+
+
+
+
+  

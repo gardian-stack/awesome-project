@@ -1,0 +1,21 @@
+.navbar-brand img {
+    max-width: 100px;
+    top: -2px;
+    position: relative;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 635;
+    font-size: 19px;
+    font-family: inherit;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 0.2rem;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: inherit;
+}
