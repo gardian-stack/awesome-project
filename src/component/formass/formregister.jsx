@@ -20,7 +20,6 @@ class Formregister extends Component{
     getDataRegister = () => {
         Axios.get('http://localhost:3004/data_register')
         .then(result =>  {
-                // console.log(result)
                 this.setState({
                 dataregis: result.data,
             })
@@ -38,16 +37,11 @@ class Formregister extends Component{
         formregisNew[event.target.name] = event.target.value
         this.setState({
             formregis : formregisNew,
-        }, 
-        // () => {
-        //     console.log('value obj', this.state.formregis)
-        // }
-        )
+        })
     }
 
     handleSave = () => {
         this.postDataRegister()
-        // console.log(this.state.formregis)
     }
 
     componentDidMount(){
